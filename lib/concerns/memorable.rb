@@ -1,5 +1,5 @@
 module Memorable
-  
+
   module ClassMethods
     def count
       all.count
@@ -15,8 +15,8 @@ module Memorable
     def initialize
       all << self
     end
-    
+
   end
-  
+
 
 end
